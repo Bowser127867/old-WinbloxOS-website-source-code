@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}About Us{% endblock %}
+{% block content %}
+<h1>About Us</h1>
+<p>We are a gaming group that makes games!</p>
+<p>We make good quality games.</p>
+<p>So much that 1.7k[from WinbloxOS-Escape-from-Simulation-v32-1] people played the game.</p>
+<p>We have currently have 4 games.(WinbloxOS Escape from Simulation v34,WinbloxOS Computer v2,WinbloxClicker v1,WinbloxOS RNG)</p>
+<p>That was it...You can return to main menu by clicking thew link down below:</p>
+<nav aria-label="Main navigation">
+    <a href="{{ url_for('home') }}">Main Menu</a>
+    <a href="{{ url_for('youtubevideos') }}">Preview</a>
+    <a href="{{ url_for('links') }}">Links</a>
+</nav>
+{% endblock %}

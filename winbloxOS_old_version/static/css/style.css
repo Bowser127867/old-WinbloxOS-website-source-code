@@ -1,0 +1,42 @@
+p {
+  color: blue;
+}
+
+a {
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  margin: 2%;
+  padding: 1%;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 5px;
+}
+
+a:hover {
+  animation: color-change 3s infinite;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  margin: 2%;
+  padding: 1%;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 5px;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  25% { color: green; }
+  50% { color: yellow; }
+  75% { color: blue; }
+  100% { color: red; }
+}
+
+h1 {
+  animation: color-change 3s infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  h1, a:hover { animation: none; }
+}
+

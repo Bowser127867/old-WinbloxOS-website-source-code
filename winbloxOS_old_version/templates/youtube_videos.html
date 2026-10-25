@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Preview{% endblock %}
+{% block content %}
+<h1>Preview of WinbloxOS Channel!</h1>
+<nav aria-label="Main navigation">
+    <a href="{{ url_for('links') }}">Links</a>
+    <a href="{{ url_for('aboutus') }}">About us</a>
+    <a href="{{ url_for('home') }}">Main Menu</a>
+</nav>
+<p>----------------------------------------------------</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1wH2CO_nx3w?si=z8k325ZTO8hxhiSn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>----------------------------------------------------</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rCaG-EONzBc?si=TTbarrgHdJ3V4LU_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>----------------------------------------------------</p>
+{% endblock %}

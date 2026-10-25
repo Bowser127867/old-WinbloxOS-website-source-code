@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Links{% endblock %}
+{% block content %}
+<h1>Links:</h1>
+<nav aria-label="Main navigation">
+    <a href="{{ url_for('home') }}">Main Menu</a>
+    <a href="{{ url_for('links') }}">Links</a>
+    <a href="{{ url_for('youtubevideos') }}">Preview</a>
+</nav>
+<p></p>
+<p>------------------------------------------------------------------------------------------------------------------------------------</p>
+<a href="https://www.youtube.com/@winbloxOS-dev">youtube link</a>
+<a href="https://www.roblox.com/games/18105542121/WinbloxOS-Escape-from-Simulation-v32-1">The game itself</a>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}WinbloxOS Universe--Main Menu...{% endblock %}
+{% block content %}
+<h1>Welcome to WinbloxOS:Offical Website!</h1>
+<p>Developed by Bowser127867 on roblox</p>
+<p>Explore our community by clicking one of these links:</p>
+<nav aria-label="Main navigation">
+    <a href="{{ url_for('links') }}">Links</a>
+    <a href="{{ url_for('aboutus') }}">About Us</a>
+    <a href="{{ url_for('youtubevideos') }}">Preview</a>
+</nav>
+<p>----------------------------------------------------</p>
+<p>Fanarts down below :</p>
+<p>----------------------------------------------------</p>
+<img src="{{ url_for('static', filename='images/attempt_2.png') }}" alt="winbloxOSlogo">
+<p>----------------------------------------------------</p>
+<img src="{{ url_for('static', filename='images/Webp (1).png') }}" alt="winbloxOSlogo-old">
+<p>----------------------------------------------------</p>
+<img src="{{ url_for('static', filename='images/Webp.webp') }}" alt="camera">
+<p>----------------------------------------------------</p>
+<p>Wow you are here!Thats impressive...Here is the code:</p>
+<p>9XWBOSWEBSITE4KLMQP</p>
+{% endblock %}
